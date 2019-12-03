@@ -1,0 +1,40 @@
+.grid {
+  display:grid;
+  background-color: lightblue;
+  height: 118vh;
+  width: 100vw;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px 750px 400px;
+  grid-template-areas:
+    "a a a a a a a a a a a a"
+    "b d d d d d d d d d d d"
+}
+.a{
+    grid-area: a;
+	text-align: center;
+	font-size: 125px;
+	font-family: Georgia;
+}
+.b{
+    grid-area: b;
+	font-size: 35px;
+	text-align: center;
+	font-family: Georgia;
+}
+
+.d{
+    grid-area: d;
+	font-size: 35px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px black solid;
+}
+
+.historicalfacts {
+	background-color: lightblue;
+}
